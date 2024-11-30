@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 40px; /* Bağlantılar başlık ile arasında boşluk bırakır */
+    display: flex;
+    flex-direction: column; /* Bağlantıları dikey hizalar */
+    align-items: center; /* Dikey hizalamayı ortalar */
+    gap: 20px; /* Her bağlantı arasında 20px boşluk bırakır */
+}
+
+nav a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 200px; /* Sabit genişlik, düğme görünümü için */
+    text-align: center; /* Metni ortalar */
+}
+
+nav a:hover {
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
